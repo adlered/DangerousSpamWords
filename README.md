@@ -8,16 +8,16 @@ API接口地址:
 https://www.stackoverflow.wiki/spam.do  
 你可以使用GET或POST方法向服务器发送数据  
 要求参数:  
-words: 需要过滤敏感词的内容  
-replaceTo: 将敏感词汇替换为指定内容  
+**words**: 需要过滤敏感词的内容  
+**replaceTo**: 将敏感词汇替换为指定内容  
 注意事项:  
 发送的数据需要使用URLEncoder进行编码, 否则可能会出现问题  
 返回结果:  
 服务器会返回json的结果  
-Result: 过滤结果  
-SpamHits: 命中敏感词汇  
-SpamWordsVersion: 词典版本  
-Runtime: 运行花费时间  
+**Result**: 过滤结果  
+**SpamHits**: 命中敏感词汇  
+**SpamWordsVersion**: 词典版本  
+**Runtime**: 运行花费时间  
 示例页面:  
 https://www.stackoverflow.wiki/spam.do?words=sb&replaceTo=*  
 可能出现的问题:  
