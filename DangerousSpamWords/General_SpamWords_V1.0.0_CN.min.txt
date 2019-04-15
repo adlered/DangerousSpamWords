@@ -1,8 +1,8 @@
-CNM
-JB
-NMSL
-SB
-VPN
+cnm
+jb
+nmsl
+sb
+vpn
 cao你妈
 caotama
 caonima
