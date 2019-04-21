@@ -5,6 +5,10 @@
 全部敏感词经过人工筛选，将正常词语误识别为敏感词的几率极小，完全不影响日常交流使用。  
 仅过滤**政治敏感**与**色情粗暴**词语，不包含部分隐晦词语。
 
+Link:
+用Java套用本字典并输出结果、命中敏感词汇、词典版本、运行花费时间请看**SpamReader**Repo  
+https://github.com/AdlerED/SpamReader
+
 API接口地址:  
 https://www.stackoverflow.wiki/spam.do  
 你可以使用GET或POST方法向服务器发送数据  
